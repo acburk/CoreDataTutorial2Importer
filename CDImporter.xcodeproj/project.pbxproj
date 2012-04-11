@@ -10,8 +10,8 @@
 		4BB2F392153564EA00C4529C /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BB2F391153564EA00C4529C /* CoreData.framework */; };
 		4BB2F394153564EA00C4529C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BB2F393153564EA00C4529C /* Foundation.framework */; };
 		4BB2F397153564EA00C4529C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BB2F396153564EA00C4529C /* main.m */; };
-		4BB2F39C153564EA00C4529C /* CDImporter.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4BB2F39A153564EA00C4529C /* CDImporter.xcdatamodeld */; };
 		4BB2F39E153564EA00C4529C /* CDImporter.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4BB2F39D153564EA00C4529C /* CDImporter.1 */; };
+		4BB2F3A61535671400C4529C /* FailedBankCD.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4BB2F3A41535671400C4529C /* FailedBankCD.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -32,9 +32,13 @@
 		4BB2F391153564EA00C4529C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		4BB2F393153564EA00C4529C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4BB2F396153564EA00C4529C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4BB2F399153564EA00C4529C /* CDImporter-Prefix.pch */ = {isa = PBXFileReference; path = "CDImporter-Prefix.pch"; sourceTree = "<group>"; };
-		4BB2F39B153564EA00C4529C /* CDImporter.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CDImporter.xcdatamodel; sourceTree = "<group>"; };
+		4BB2F399153564EA00C4529C /* CDImporter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CDImporter-Prefix.pch"; sourceTree = "<group>"; };
 		4BB2F39D153564EA00C4529C /* CDImporter.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = CDImporter.1; sourceTree = "<group>"; };
+		4BB2F3A51535671400C4529C /* FailedBankCD.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FailedBankCD.xcdatamodel; sourceTree = "<group>"; };
+		4BB2F3A7153567E900C4529C /* FailedBankDetails.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FailedBankDetails.h; sourceTree = "<group>"; };
+		4BB2F3A8153567E900C4529C /* FailedBankDetails.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FailedBankDetails.m; sourceTree = "<group>"; };
+		4BB2F3A9153567E900C4529C /* FailedBankInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FailedBankInfo.h; sourceTree = "<group>"; };
+		4BB2F3AA153567E900C4529C /* FailedBankInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FailedBankInfo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +85,11 @@
 			children = (
 				4BB2F396153564EA00C4529C /* main.m */,
 				4BB2F39D153564EA00C4529C /* CDImporter.1 */,
-				4BB2F39A153564EA00C4529C /* CDImporter.xcdatamodeld */,
+				4BB2F3A41535671400C4529C /* FailedBankCD.xcdatamodeld */,
+				4BB2F3A7153567E900C4529C /* FailedBankDetails.h */,
+				4BB2F3A8153567E900C4529C /* FailedBankDetails.m */,
+				4BB2F3A9153567E900C4529C /* FailedBankInfo.h */,
+				4BB2F3AA153567E900C4529C /* FailedBankInfo.m */,
 				4BB2F398153564EA00C4529C /* Supporting Files */,
 			);
 			path = CDImporter;
@@ -147,7 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4BB2F397153564EA00C4529C /* main.m in Sources */,
-				4BB2F39C153564EA00C4529C /* CDImporter.xcdatamodeld in Sources */,
+				4BB2F3A61535671400C4529C /* FailedBankCD.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,13 +250,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		4BB2F39A153564EA00C4529C /* CDImporter.xcdatamodeld */ = {
+		4BB2F3A41535671400C4529C /* FailedBankCD.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				4BB2F39B153564EA00C4529C /* CDImporter.xcdatamodel */,
+				4BB2F3A51535671400C4529C /* FailedBankCD.xcdatamodel */,
 			);
-			currentVersion = 4BB2F39B153564EA00C4529C /* CDImporter.xcdatamodel */;
-			path = CDImporter.xcdatamodeld;
+			currentVersion = 4BB2F3A51535671400C4529C /* FailedBankCD.xcdatamodel */;
+			path = FailedBankCD.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
