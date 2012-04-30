@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B1CAE1915356E9200C9A385 /* data.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4B1CAE13153569DA00C9A385 /* data.json */; };
 		4BB2F392153564EA00C4529C /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BB2F391153564EA00C4529C /* CoreData.framework */; };
 		4BB2F394153564EA00C4529C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BB2F393153564EA00C4529C /* Foundation.framework */; };
 		4BB2F397153564EA00C4529C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BB2F396153564EA00C4529C /* main.m */; };
@@ -15,6 +16,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		4B1CAE1815356E8A00C9A385 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				4B1CAE1915356E9200C9A385 /* data.json in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4BB2F38B153564EA00C4529C /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -28,6 +39,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4B1CAE13153569DA00C9A385 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
 		4BB2F38D153564EA00C4529C /* CDImporter */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CDImporter; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BB2F391153564EA00C4529C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		4BB2F393153564EA00C4529C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -91,6 +103,7 @@
 				4BB2F3A9153567E900C4529C /* FailedBankInfo.h */,
 				4BB2F3AA153567E900C4529C /* FailedBankInfo.m */,
 				4BB2F398153564EA00C4529C /* Supporting Files */,
+				4B1CAE13153569DA00C9A385 /* data.json */,
 			);
 			path = CDImporter;
 			sourceTree = "<group>";
@@ -113,6 +126,7 @@
 				4BB2F389153564EA00C4529C /* Sources */,
 				4BB2F38A153564EA00C4529C /* Frameworks */,
 				4BB2F38B153564EA00C4529C /* CopyFiles */,
+				4B1CAE1815356E8A00C9A385 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -246,6 +260,7 @@
 				4BB2F3A3153564EA00C4529C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
